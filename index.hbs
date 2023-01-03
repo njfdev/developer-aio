@@ -1,1 +1,12 @@
 {{!< default}}
+
+<main>
+    <div>
+        {{#foreach posts}}
+            <article>
+                <h1>{{title}}</h1>
+                <p>{{excerpt}}</p>
+            </article>
+        {{/foreach}}
+    </div>
+</main>
