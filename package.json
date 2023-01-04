@@ -44,5 +44,8 @@
         "postcss": "^8.4.20",
         "postcss-easy-import": "^4.0.0",
         "pump": "^3.0.0"
+    },
+    "config": {
+        "posts_per_page": 25
     }
 }
