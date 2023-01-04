@@ -1,0 +1,19 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Set image styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.legible-padding {
+    padding: 1em;
+}

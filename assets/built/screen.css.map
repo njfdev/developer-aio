@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"screen.css"}
+{"version":3,"sources":["screen.css"],"names":[],"mappings":"AACA,EAGI,QAAS,CACT,cAAe,CACf,YAAa,CAJb,QAAS,CACT,SAAU,CAIV,uBACJ,CAGA,IAEI,WAAY,CADZ,cAEJ,CAEA,iBACI,WACJ","file":"screen.css","sourcesContent":["/* Reset default styles */\n* {\n    margin: 0;\n    padding: 0;\n    border: 0;\n    font-size: 100%;\n    font: inherit;\n    vertical-align: baseline;\n}\n\n/* Set image styles */\nimg {\n    max-width: 100%;\n    height: auto;\n}\n\n.legible-padding {\n    padding: 1em;\n}\n"]}
