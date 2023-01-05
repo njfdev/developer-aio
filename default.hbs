@@ -11,6 +11,18 @@
 
     <body>
 
+        <header>
+            {{@site.title}}
+            {{navigation}}
+            <button data-ghost-search>search</button>
+            {{#unless @member}}
+                <a href="#/portal/signin" data-portal="signin">Sign In</a>
+                <a href="#/portal/signup" data-portal="signup">Subscribe</a>
+            {{else}}
+                <a href="#/portal/account" data-portal="account">Account</a>
+            {{/unless}}
+        </header>
+
         {{{body}}}
 
         {{ghost_foot}}
