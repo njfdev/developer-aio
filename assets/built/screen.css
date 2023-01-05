@@ -1,2 +1,2 @@
-*{border:0;font-size:100%;font:inherit;margin:0;padding:0;vertical-align:baseline}img{height:auto;max-width:100%}.legible-padding{padding:1em}
+*{border:0;box-sizing:inherit;font-size:100%;font:inherit;margin:0;padding:0;vertical-align:baseline}img{height:auto;max-width:100%}.outer{padding:0 max(4vmin,20px);position:relative}.inner{margin:0 auto;max-width:1200px;width:100%}
 /*# sourceMappingURL=screen.css.map */

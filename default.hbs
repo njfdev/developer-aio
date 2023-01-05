@@ -11,16 +11,18 @@
 
     <body>
 
-        <header>
-            <a href="/">{{@site.title}}</a>
-            {{navigation}}
-            <button data-ghost-search>search</button>
-            {{#unless @member}}
-                <a href="#/portal/signin" data-portal="signin">Sign In</a>
-                <a href="#/portal/signup" data-portal="signup">Subscribe</a>
-            {{else}}
-                <a href="#/portal/account" data-portal="account">Account</a>
-            {{/unless}}
+        <header class="outer">
+            <nav class="inner">
+                <a href="/">{{@site.title}}</a>
+                {{navigation}}
+                <button data-ghost-search>search</button>
+                {{#unless @member}}
+                    <a href="#/portal/signin" data-portal="signin">Sign In</a>
+                    <a href="#/portal/signup" data-portal="signup">Subscribe</a>
+                {{else}}
+                    <a href="#/portal/account" data-portal="account">Account</a>
+                {{/unless}}
+            </nav>
         </header>
 
         {{{body}}}

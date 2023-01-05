@@ -1,10 +1,12 @@
 {{!< default}}
 
 <main>
-    <div class="legible-padding">
-        {{#foreach posts}}
-            {{> "post-card"}}
-        {{/foreach}}
+    <div class="outer">
+        <div class="inner">
+            {{#foreach posts}}
+                {{> "post-card"}}
+            {{/foreach}}
+        </div>
     </div>
 
     {{pagination}}
