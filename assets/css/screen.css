@@ -1,29 +1,4 @@
-/* -------- 1. Set Element Styles -------- */
-
-/* Reset default styles */
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: inherit;
-}
-
-/* Set image styles */
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-    font-family: sans-serif;
-}
-
-/* -------- 2. Style Helpers -------- */
+/* -------- 1. Style Helpers -------- */
 
 .outer {
     position: relative;
@@ -36,7 +11,7 @@ a {
     width: 100%;
 }
 
-/* -------- 3. Specific Styles -------- */
+/* -------- 2. Specific Styles -------- */
 
 /* Style the header title (we know it is a link </a>) */
 .gh-head-title {
