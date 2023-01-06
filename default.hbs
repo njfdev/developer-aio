@@ -16,7 +16,7 @@
             <nav class="inner">
                 <a href="/" class="gh-head-title">{{@site.title}}</a>
                 {{navigation}}
-                <button data-ghost-search>search</button>
+                <button data-ghost-search>{{> "icons/search"}}</button>
                 {{#unless @member}}
                     <a href="#/portal/signin" data-portal="signin">Sign In</a>
                     <a href="#/portal/signup" data-portal="signup">Subscribe</a>
