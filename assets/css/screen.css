@@ -17,6 +17,12 @@ img {
     height: auto;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: sans-serif;
+}
+
 /* -------- 2. Style Helpers -------- */
 
 .outer {
@@ -28,4 +34,13 @@ img {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
+}
+
+/* -------- 3. Specific Styles -------- */
+
+/* Style the header title (we know it is a link </a>) */
+.gh-head-title {
+    font-size: 2.6rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
 }
