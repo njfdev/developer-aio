@@ -1,13 +1,11 @@
 {{!< default}}
 
-<main>
-    <div class="outer">
-        <div class="inner">
-            {{#foreach posts}}
-                {{> "post-card"}}
-            {{/foreach}}
+<main class="outer site-main">
+    <div class="inner">
+        {{#foreach posts}}
+            {{> "post-card"}}
+        {{/foreach}}
 
-            {{pagination}}
-        </div>
+        {{pagination}}
     </div>
 </main>

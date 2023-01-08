@@ -8,7 +8,7 @@
     --font-mono: Menlo, Courier, monospace;
 
     /* Spacing */
-    --header-spacing: 2rem;
+    --header-spacing: 3rem;
 
     /*
     An accent color is also set by Ghost itself in
@@ -78,9 +78,13 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-block: 1rem !important;
+    padding-block: 2rem !important;
 }
 
 nav a {
     color: white;
+}
+
+.site-main {
+    padding-top: max(4vmin, 20px);
 }
