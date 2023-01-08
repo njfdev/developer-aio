@@ -29,3 +29,11 @@
     font-weight: 800;
     letter-spacing: -0.02em;
 }
+
+.gh-head-left {
+    float: left;
+}
+
+.gh-head-right {
+    float: right;
+}

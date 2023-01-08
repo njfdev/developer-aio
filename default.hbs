@@ -14,15 +14,20 @@
 
         <header class="outer">
             <nav class="inner">
-                <a href="/" class="gh-head-title">{{@site.title}}</a>
-                {{navigation}}
-                <button data-ghost-search>{{> "icons/search"}}</button>
-                {{#unless @member}}
-                    <a href="#/portal/signin" data-portal="signin">Sign In</a>
-                    <a href="#/portal/signup" data-portal="signup">Subscribe</a>
-                {{else}}
-                    <a href="#/portal/account" data-portal="account">Account</a>
-                {{/unless}}
+                <div class="gh-head-left">
+                    <a href="/" class="gh-head-title">{{@site.title}}</a>
+                    {{navigation}}
+                </div>
+
+                <div class="gh-head-right">
+                    <button data-ghost-search>{{> "icons/search"}}</button>
+                    {{#unless @member}}
+                        <a href="#/portal/signin" data-portal="signin">Sign In</a>
+                        <a href="#/portal/signup" data-portal="signup">Subscribe</a>
+                    {{else}}
+                        <a href="#/portal/account" data-portal="account">Account</a>
+                    {{/unless}}
+                </div>
             </nav>
         </header>
 
