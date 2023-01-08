@@ -6,7 +6,16 @@
         "Helvetica Neue", sans-serif;
     --font-serif: Georgia, Times, serif;
     --font-mono: Menlo, Courier, monospace;
+
+    /* Spacing */
     --header-spacing: 2rem;
+
+    /*
+    An accent color is also set by Ghost itself in
+    Ghost Admin > Settings > Brand
+
+    --ghost-accent-color: {value};
+     */
 }
 
 /* -------- 1. Style Helpers -------- */
@@ -29,6 +38,10 @@
     font-size: 2.6rem;
     font-weight: 800;
     letter-spacing: -0.02em;
+}
+
+.gh-head {
+    background-color: var(--ghost-accent-color);
 }
 
 .gh-head-left {
@@ -65,5 +78,9 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-block: 1rem !important;
+    padding-block: 1rem !important;
+}
+
+nav a {
+    color: white;
 }
