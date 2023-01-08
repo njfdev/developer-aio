@@ -73,6 +73,13 @@
     padding: 0;
 }
 
+.nav-search {
+    background-color: transparent;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
 /* the element nav is only used to encapsulate the navigation */
 nav {
     display: flex;
