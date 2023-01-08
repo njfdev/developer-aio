@@ -6,6 +6,7 @@
         "Helvetica Neue", sans-serif;
     --font-serif: Georgia, Times, serif;
     --font-mono: Menlo, Courier, monospace;
+    --header-spacing: 2rem;
 }
 
 /* -------- 1. Style Helpers -------- */
@@ -16,7 +17,7 @@
 }
 
 .inner {
-    margin: 0 auto;
+    margin-inline: auto;
     max-width: 1200px;
     width: 100%;
 }
@@ -31,9 +32,38 @@
 }
 
 .gh-head-left {
-    float: left;
+    display: flex;
+    flex-direction: row;
+    gap: var(--header-spacing);
 }
 
 .gh-head-right {
-    float: right;
+    display: flex;
+    flex-direction: row;
+    gap: var(--header-spacing);
+}
+
+/* nav is a premade class when using {{navigation}} */
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--header-spacing);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav li {
+    margin: 0;
+    padding: 0;
+}
+
+/* the element nav is only used to encapsulate the navigation */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block: 1rem !important;
 }
