@@ -36,12 +36,16 @@
 /* Style the header title (we know it is a link </a>) */
 .gh-head-title {
     font-size: 2.6rem;
-    font-weight: 800;
+    font-weight: 800 !important;
     letter-spacing: -0.02em;
 }
 
 .gh-head {
     background-color: var(--ghost-accent-color);
+}
+
+.gh-foot {
+    background-color: rgb(10, 11, 12);
 }
 
 .gh-head-left {
@@ -80,17 +84,26 @@
     padding: 0;
 }
 
-/* the element nav is only used to encapsulate the navigation */
-nav {
+.gh-head-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-block: 2rem !important;
+    padding-block: 2rem;
 }
 
-nav a {
+.gh-head-nav a {
     color: white;
     font-weight: 500;
+}
+
+.gh-foot-nav ul li a {
+    color: white;
+}
+
+.gh-foot {
+    margin-top: 8rem;
+    padding-top: 4rem;
+    padding-bottom: 12rem;
 }
 
 .site-main {

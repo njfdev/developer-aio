@@ -13,7 +13,7 @@
     <body>
 
         <header class="outer gh-head">
-            <nav class="inner">
+            <nav class="gh-head-nav inner">
                 <div class="gh-head-left">
                     <a href="/" class="gh-head-title">{{@site.title}}</a>
                     {{navigation}}
@@ -32,6 +32,14 @@
         </header>
 
         {{{body}}}
+
+        <footer class="outer gh-foot">
+            <div class="inner">
+                <nav class="gh-foot-nav">
+                    {{navigation type="secondary"}}
+                </nav>
+            </div>
+        </footer>
 
         {{ghost_foot}}
 
