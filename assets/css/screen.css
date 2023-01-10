@@ -108,6 +108,16 @@
     border-radius: 0.5rem;
 }
 
+.gh-head-nav a:hover,
+.gh-head-nav svg:hover {
+    opacity: 0.925;
+}
+
+.gh-head-nav a:active,
+.gh-head-nav svg:active {
+    opacity: 0.85;
+}
+
 .gh-foot-nav ul li a {
     color: white;
 }
