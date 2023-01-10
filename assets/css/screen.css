@@ -72,6 +72,10 @@
     list-style: none;
 }
 
+.gh-head-nav div a {
+    align-self: center;
+}
+
 .nav li {
     margin: 0;
     padding: 0;
