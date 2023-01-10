@@ -106,6 +106,7 @@
     color: black !important;
     padding: 0.6rem 1.5rem;
     border-radius: 0.5rem;
+    font-weight: 600 !important;
 }
 
 .gh-head-nav a:hover,
